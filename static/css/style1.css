@@ -1,0 +1,190 @@
+.ripple-background {
+    position: relative;
+    /* Add this line */
+    width: 100%;
+    /* Add this line */
+    height: 100%;
+    /* Add this line */
+    margin: 0;
+    padding: 0;
+    margin-top: 600px;
+}
+
+.fluid-container {
+    z-index: 2;
+    position: fixed;
+    /* Position the form relative to the viewport */
+    top: 0;
+    /* You can adjust these values */
+    left: 0;
+    margin-left: 80%;
+    margin-top: 250px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+form input {
+    background-color: black;
+}
+
+/* Rest of your CSS code */
+body {
+    background: #3399ff;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    animation: ripple 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+}
+
+.medium {
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+}
+
+.large {
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    bottom: -300px;
+}
+
+.xlarge {
+    width: 800px;
+    height: 800px;
+    left: -400px;
+    bottom: -400px;
+}
+
+.xxlarge {
+    width: 1000px;
+    height: 1000px;
+    left: -500px;
+    bottom: -500px;
+}
+
+.shade1 {
+    opacity: 0.2;
+}
+
+.shade2 {
+    opacity: 0.5;
+}
+
+.shade3 {
+    opacity: 0.7;
+}
+
+.shade4 {
+    opacity: 0.8;
+}
+
+.shade5 {
+    opacity: 0.9;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+svg {
+    padding-right: 5px;
+}
+
+.form {
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 25px 50px -12px;
+}
+
+@media (max-width: 3320px) {
+    .fluid-container {
+        margin-left: 70%;
+    }
+}
+
+@media (max-width: 2042px) {
+    .fluid-container {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 1466px) {
+    .fluid-container {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 1234px) {
+    .fluid-container {
+        margin-left: 550px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .fluid-container {
+        margin-left: 320px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .fluid-container {
+        margin-left: 70px;
+    }
+
+    h1 {
+        color: black;
+    }
+}
+
+.list-group{
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.buttn button{
+    position: absolute;
+    margin-left: 610px;
+}
+
+h6{
+    font-size: 20px;
+    text-align: end;
+    color: white;
+    margin-bottom: 30px;
+}
