@@ -1,4 +1,4 @@
- # LinguaNet: A Neural Network Based Language Identification System
+ # Language Detection
 
  ## Project Overview
  LinguaNet is a language identification model built on Deep Neural Networks (DNNs) using Python and TensorFlow. It employs character n-grams to classify the language of any given text input. The system is capable of ingesting user inputs and efficiently outputting the identified language.
