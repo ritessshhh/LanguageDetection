@@ -15,7 +15,7 @@
  ## Installation
  Clone the repo
  ```bash
- git clone https://github.com/mohamzamir/LinguaNet-A-Neural-Network-Based-Language-Identification-System
+ git clone https://github.com/ritessshhh/languageDetection
  ```
 
 ## Example
@@ -51,7 +51,7 @@
 
  ## License
  ```bash
- Copyright [2023] [Amir Hamza]
+ Copyright [2023] [Ritesh Chavan]
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
